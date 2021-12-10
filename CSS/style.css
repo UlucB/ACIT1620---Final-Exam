@@ -9,6 +9,8 @@
   --black:       #23262E;
   --blueGray:    #555B6E;
   --romanSilver: #757E95;
+  --darkblue:    #305573;
+  --orangered:   #ce7048;
 }
 
 * {
@@ -26,6 +28,16 @@
   --fontColor:      var(--black);
   --navLinkColor:   var(--lightCoral);
   --formBG:         var(--lightCoral);
+  --formInput:      var(--white);
+}
+
+.dark-theme {
+  --navBg:          var(--black);
+  --navLinkHoverBg: var(--darkblue);
+  --mainBg:         var(--darkblue);
+  --fontColor:      var(--white);
+  --navLinkColor:   var(--orangered);
+  --formBG:         var(--black);
   --formInput:      var(--white);
 }
 
@@ -186,4 +198,12 @@ input[type=text]:focus {
 .contact button {
  background: var(--darkGreen);
  color: var(--white);
+}
+
+/* Question 2: Media Query */
+
+@media screen and (max-width: 600px) {
+  .myForm {flex-direction: column;}
+  .message {order:1}
+  .contact {order:2}
 }
