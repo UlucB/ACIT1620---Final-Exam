@@ -204,6 +204,7 @@ input[type=text]:focus {
 
 @media screen and (max-width: 600px) {
   .myForm {flex-direction: column;}
-  .message {order:1}
+  .message {order:1; min-height: 15rem;}
   .contact {order:2}
+  h1, h2 {font-size: 4rem}
 }
