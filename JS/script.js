@@ -23,8 +23,8 @@ document.querySelector('#frm-btn').addEventListener('click', (event) => {
 
     contactList.push(
         {
-            'name': name,
             'email': email,
+            'name': name,
             'message': message,
         })
 
