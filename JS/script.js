@@ -20,8 +20,13 @@ document.querySelector('#frm-btn').addEventListener('click', event => {
     let email = document.querySelector('#email').value
     let message = document.querySelector('#msg').value
 
-    console.log('name:', name, '\nemail:', email, '\nmessage', message)
+    let contactList = [
+        {
+            'name': name,
+            'email': email,
+            'message': message,
+        }]
+    console.log(contactList[0])
 
-
-
+    // for (i=0; i<contactList.length; i++) {console.log(contactList[i])}
 })
