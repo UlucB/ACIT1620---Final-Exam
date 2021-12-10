@@ -207,5 +207,5 @@ input[type=text]:focus {
   .message {order:1; min-height: 15rem;}
   .contact {order:2}
   h1, h2 {font-size: 4rem}
-  ul li a {font-size:2.5rem}
+  ul li a {font-size: 2.5rem}
 }

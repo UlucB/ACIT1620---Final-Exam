@@ -1,7 +1,7 @@
 
 // Question 1: Dark Mode
 
-document.querySelector(".toggle").addEventListener("click", event =>{
+document.querySelector(".toggle").addEventListener("click", (event) => {
     let body = document.querySelector("body")
     if (body.classList.contains('light-theme')) {
         body.classList.remove('light-theme');
@@ -16,7 +16,7 @@ document.querySelector(".toggle").addEventListener("click", event =>{
 
 let contactList=[]
 
-document.querySelector('#frm-btn').addEventListener('click', event => {
+document.querySelector('#frm-btn').addEventListener('click', (event) => {
     let name = document.querySelector('#name').value
     let email = document.querySelector('#email').value
     let message = document.querySelector('#msg').value
